@@ -7,8 +7,8 @@ Everyone knows that your teacher is the epitome of "cool" and that you all aspir
 
 ## Part 0 - The Setup (20%)
 **Save the file with the correct name**
-1. Create a score variable in the global variables area and set it equal to zero.
-2. Create a name variable in the global variables area, remember the reserved varaible `name`
+1. Create a `score` variable in the global variables area and set it equal to zero.
+2. Create a `name` variable in the global variables area.
 3. In the `SETUP()` function, use `window.prompt()` to ask the user their name.
     - You are then to use this name variable somewhere in the rest of the program.
     - This is the only time you will use `window.prompt()` for this assignment.
@@ -17,12 +17,12 @@ Everyone knows that your teacher is the epitome of "cool" and that you all aspir
 
 ## Part 1 - Draw & KeyPressed Functions (60%)
 ### Draw Function (20%)
-1. Use TEXT lines to add a title to your Coolness Test.
-2. Use TEXT lines to ask the user 5 multiple-choice questions, using the following instructions.
+1. Use `TEXT()` lines to add a title to your Coolness Test.
+2. Use `TEXT()` lines to ask the user 5 multiple-choice questions, using the following instructions.
 3. All 5 questions are going to appear on the screen at all times.
 4. Give 3 choices for each question. Each question will tell the user to choose from a different set of keys as follows:
     - Question 1 will use a, b & c.
-    - Question 2 will use c, d & e, etc.
+    - Question 2 will use d, e & f, etc.
 
 ```
 Example:
@@ -30,7 +30,8 @@ Question 4:  Which of the following is the best movie series?
 i)  Starwars	j) Marvel Universe	k) Hunger Games
 ``` 
 	
-5. Still in the draw function, print the user’s name and the value of the SCORE variable at all times somewhere near the bottom.
+5. In the draw function, show the user’s name and the value of the SCORE variable at all times somewhere near the bottom of your screen.
+
    
 ```
 Petra, your coolness score is currently:  4
@@ -65,7 +66,7 @@ Petra, your coolness score is currently:  4
 
 
 ```
-// Oh scary.... no starter code. You can use your in class examples for help. 
+// Oh scary.... no starter code. You can use your in-class examples for help. 
 function preload(){
 }
 
