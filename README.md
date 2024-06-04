@@ -24,8 +24,8 @@ Everyone knows that your teacher is the epitome of "cool" and that you all aspir
     - Question 1 will use a, b & c.
     - Question 2 will use d, e & f, etc.
 
-```
-Example:
+```javaScript
+//Example:
 Question 4:  Which of the following is the best movie series?
 i)  Starwars	j) Marvel Universe	k) Hunger Games
 ``` 
@@ -33,8 +33,8 @@ i)  Starwars	j) Marvel Universe	k) Hunger Games
 5. In the draw function, show the user’s name and the value of the SCORE variable at all times somewhere near the bottom of your screen.
 
    
-```
-Petra, your coolness score is currently:  4
+```javaScript
+"Petra, your coolness score is currently:  4"
 ```
 
 ### KeyPressed Function (40%)
@@ -65,7 +65,7 @@ Petra, your coolness score is currently:  4
 4. Optional, add another keypress that resets the score back to zero and lets them take the test again. Not for marks.
 
 
-```
+```javaScript
 // Oh scary.... no starter code. You can use your in-class examples for help. 
 function preload(){
 }
